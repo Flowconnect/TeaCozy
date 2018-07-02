@@ -1,0 +1,173 @@
+/* General */
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+}
+
+.header .logo img {
+  height: 50px;
+  width: auto;
+  margin: 10px;
+  display: inline;
+}
+nav {
+  width: 600px;
+  text-align: right;
+  margin: 20px 10px;
+  display: inline;
+  flex: 1000px;
+}
+nav a {
+  color: seashell;
+  margin: 10px;
+}
+
+/* Our Mission */
+.mission {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  top: 69px;
+  margin: auto;
+}
+.mission h2 {
+  margin: 5px;
+  padding-top: 20px;
+}
+.mission h4 {
+  margin-top: 10px;
+}
+.mission .content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 1200px;
+  z-index: 1;
+  background-color: black;
+  top: 350px;
+}
+
+/* Feutured Tea */
+.featured {
+  display: block;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.featured h2 {
+  padding-top: 50px;
+  margin-bottom: 5px;
+}
+.featured h4 {
+  margin: 15px;
+}
+.featuredtea {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+.tea {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px 10px;
+}
+.tea img{
+  height: 200px;
+  width: 300px;
+  color: red;
+  margin-bottom: 10px;
+}
+.tea .content {
+  height: auto;
+  width: 300px;
+  font-weight: bold;
+}
+
+/* Locations */
+
+.locations {
+  display: flex;
+  width: 1200px;
+  height: 550px;
+  margin: auto;
+  background-image: url("../images/img-locations-background.jpg");
+  image-orientation: top;
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.locations h2 {
+position: absolute;;
+top: 1500px;
+height: 50px;
+width: 1060px;
+margin: 0;
+text-align: center;
+}
+.location {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  opacity: 1;
+  margin: 10px 20px 15px 20px;
+}
+.location .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.location .content span {
+  margin: auto;
+}
+.location .content h3 {
+  margin: auto;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+.footer h2 {
+ margin: 10px auto 30px auto;
+}
+.footer h5 {
+  margin: 10px auto 20px auto;
+}
+.copyright h5 {
+  margin: 40px 20px;
+}
